@@ -453,7 +453,7 @@ function Luxt1.CreateWindow(libName, logoId)
                     if not debounce then
                         debounce = true
                         callback()
-                        wait(1)
+                        wait(0.1)
                         debounce = false
                     end
                 end)
